@@ -18,7 +18,7 @@ return(
         <div className="absolute text-3xl text-white top-[5%] left-[90%]" onClick={(e)=>{navRef.current.style.transform="translateX(-100%)"}}>X</div>
 
     </div>
-<a className="float-left mt-[1%]" href="/"><img src="/images/logo.png"></img></a>
+<Link className="float-left mt-[1%]" href="/"><img src="/images/logo.png"></img></Link>
 <div className="flex mr-0 md:mr-20 ml-auto  gap-6">
     <img src="/images/user-icon.png"></img>
     <img src="/images/bag-icon.png"></img>
