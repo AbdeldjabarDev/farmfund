@@ -23,12 +23,13 @@ export default function Carouseler(props)
     if(itemIndex < 0)
     {setItemIndex(0);return};
     if(itemIndex == children.length -1 )
-    {return} 
+    { setItemIndex(0)
+      return} 
      setItemIndex(itemIndex+1)}}>{controls[0]}</div>
 <div className="z-20" onClick={(e)=>{
     console.log("control clicked : left ");
     if(itemIndex < 0)
-    {setItemIndex(0);return};
+    {setItemIndex(children.length-1);return};
     setItemIndex(itemIndex-1)}}>{controls[1]}</div></div>
       </div>
   
