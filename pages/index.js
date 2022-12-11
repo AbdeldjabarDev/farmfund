@@ -1,19 +1,16 @@
 import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../styles/Home.module.css'
 import Nav from '../components/Nav'
 import Carouseler from '../components/Carouseler'
-import Carousel from '../components/Carousel'
 import AboutComp from '../components/AboutComp'
 import ServicesComp from '../components/Services'
 import Retailer from '../components/Retailer'
 import ContactComp from '../components/ContactComp'
 import Footer from '../components/Footer'
-import Navigator from '../components/Navigator'
+
 import { useRef } from 'react'
 
 export default function Home() {
-  let navRef = useRef();
+  
   return (
     <div className="h-full w-full flex flex-col ">
       <Head>
