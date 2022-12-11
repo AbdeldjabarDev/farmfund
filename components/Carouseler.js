@@ -1,4 +1,5 @@
 import { useRef, useState } from "react";
+import Carousel from "./Carousel";
 export default function Carouseler(props)
 {
     let conRef = useRef();

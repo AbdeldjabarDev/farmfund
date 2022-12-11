@@ -20,7 +20,7 @@ export default function Home() {
         <title>Create Next App</title>
         <meta name="description" content="FarmFund : Farming Retail service template website" />
         <link rel="icon" href="/favicon.ico" />
-        <meta name="viewport" content='width=device-width,initial-scale=0.7'/>
+        <meta name="viewport" content='width=device-width,initial-scale=1'/>
       </Head>
       <div className='bg-center bg-no-repeat md:bg-[url("/images/banner-bg.png")] w-full h-[100vh]  border-[3px] border-green-600' style={{backgroundSize:"100%",backgroundPosition:"0% 0%"}}
       >
