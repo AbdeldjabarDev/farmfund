@@ -4,7 +4,7 @@ export default function Carouseler(props)
 {
     let conRef = useRef();
     let [itemIndex,setItemIndex] = useState(0);    
-     children= [<Carousel key={1}/>,<Carousel />]
+    children= [<Carousel key={1}/>,<Carousel key={2}/>]
    controls = [<div className='w-10 h-10 bg-[url("/images/left-icon.png")] bg-pink-600 bg-no-repeat bg-center rounded-full' key={1}></div>,
    <div className='w-10 h-10 bg-[url("/images/right-icon.png")] bg-black bg-no-repeat bg-center rounded-full' key={2}></div>]
     if(controls)
