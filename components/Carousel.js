@@ -1,7 +1,7 @@
 export default function Carousel(props)
 {
     return(
-        <div className='w-[100%] h-[65vh] md:h-[40vh] flex flex-wrap border border-red-100'>
+        <div className='w-[100%] h-[65vh] md:h-[40vh] flex flex-wrap '>
 <div className='mt-[3%] flex flex-col md:flex-row'>
 <div>
 <div className='text-5xl lg:text-3xl'>Retailers</div>

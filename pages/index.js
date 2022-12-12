@@ -13,12 +13,11 @@ export default function Home() {
       <Head>
         <title>FarmFund</title>
         <meta name="description" content="FarmFund : Farming Retail service template website" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/images/logo.png" />
         <meta name="viewport" content='width=device-width,initial-scale=1'/>
       </Head>
-      <div className='md:bg-center bg-no-repeat  md:bg-[url("/images/banner-bg.png")] w-full h-[100vh]' style={{backgroundSize:"100%",backgroundPosition:"0% 0%"}}
+      <div className='bg-center bg-no-repeat md:bg-[url("/images/banner-bg.png")] w-full h-[100vh]' style={{backgroundSize:"100%",backgroundPosition:"0% 0%"}}
       >
-        <div className='absolute top-0 right-0 h-[12vh] sm:h-[13 vh] -z-20 w-[65%] sm:w-[50%] bg-[#ea3675]' style={{"clipPath":"polygon(40% 0%,0% 100%,100% 100%,100% 0%)"}}></div>
    <Nav></Nav>
    <Carouseler
    tailwind = "w-[75%] h-[80vh] ml-auto mr-auto overflow-hidden mt-[10%] transition-[ease all 0.5s]"
