@@ -6,21 +6,19 @@ import ServicesComp from '../components/Services'
 import Retailer from '../components/Retailer'
 import ContactComp from '../components/ContactComp'
 import Footer from '../components/Footer'
-
-import { useRef } from 'react'
-
 export default function Home() {
   
   return (
     <div className="h-full w-full flex flex-col ">
       <Head>
-        <title>Create Next App</title>
+        <title>FarmFund</title>
         <meta name="description" content="FarmFund : Farming Retail service template website" />
         <link rel="icon" href="/favicon.ico" />
         <meta name="viewport" content='width=device-width,initial-scale=1'/>
       </Head>
-      <div className='bg-center bg-no-repeat md:bg-[url("/images/banner-bg.png")] w-full h-[100vh]' style={{backgroundSize:"100%",backgroundPosition:"0% 0%"}}
+      <div className='md:bg-center bg-no-repeat  md:bg-[url("/images/banner-bg.png")] w-full h-[100vh]' style={{backgroundSize:"100%",backgroundPosition:"0% 0%"}}
       >
+        <div className='absolute top-0 right-0 h-[12vh] sm:h-[13 vh] -z-20 w-[65%] sm:w-[50%] bg-[#ea3675]' style={{"clipPath":"polygon(40% 0%,0% 100%,100% 100%,100% 0%)"}}></div>
    <Nav></Nav>
    <Carouseler
    tailwind = "w-[75%] h-[80vh] ml-auto mr-auto overflow-hidden mt-[10%] transition-[ease all 0.5s]"

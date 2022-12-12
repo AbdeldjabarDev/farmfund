@@ -5,7 +5,7 @@ export default function Nav(props)
     let navRef = useRef();
 return(
 <div className="flex w-[100%]">
-<div className="absolute top-0 left-[100%]  md:translate-x-0 w-[50%] transition-none md:left-[50%] md:w-[50%] -z-10 h-[5%] bg_class bg-pink-600" ></div>
+<div className="absolute top-0 left-[100%]  md:translate-x-0 w-[50%] transition-none md:left-[50%]  -z-10 h-[5%] bg_class bg-pink-600" ></div>
     <div className="absolute bg-black bg-opacity-40 top-0 z-40 left-0 w-[100%] h-[100%] " ref={navRef} style={{transform:"translateX(-100%)"}}>
     
         <div className="flex mt-20 gap-10 ml-[45%] mr-auto flex-col">
