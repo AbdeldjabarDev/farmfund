@@ -4,7 +4,7 @@ import Footer from "../components/Footer";
 export default function Services(props)
 {
     return(
-        <div className="w-[100%] border-[3px] border-emerald-700" >
+        <div className="w-[100%]" >
            <Nav></Nav>
             <div className="flex flex-col gap-72">
             <ServicesComp></ServicesComp>

@@ -16,7 +16,7 @@ return(
         </div>
         <div className="absolute text-3xl text-white top-[5%] left-[90%]" onClick={(e)=>{navRef.current.style.transform="translateX(-100%)"}}>X</div>
     </div>
-<Link className="float-left m-3" href="/"><img src="/images/logo.png"></img></Link>
+    <Link  href="/"><img className="float-left m-3" src="/images/logo.png"></img></Link>
 <div className='absolute top-0 right-0 h-[9%] sm:h-[8%] -z-20 w-[62%] sm:w-[40%] bg-[#ea3675]' style={{"clipPath":"polygon(40% 0%,0% 100%,100% 100%,100% 0%)"}}></div>
 <div className="flex mr-0 md:mr-20 ml-auto mt-2 gap-6">
     <img src="/images/user-icon.png"></img>

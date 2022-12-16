@@ -4,7 +4,7 @@ export default function Footer(props)
 {
     return(
     <div className="flex flex-col h-fit lg:h-[60vh] bg-black bg-opacity-90 mt-[10%]">
-        <div className="text-6xl lg:text-4xl font-serif font-bold text-white ml-[10%] md:ml-[23%] mt-[2%]">FarmFund</div>
+        <div className="text-6xl lg:text-4xl font-serif font-bold text-white ml-[10%] md:ml-[24%] mt-[2%]">FarmFund</div>
 <div className="text-white flex flex-col md:flex-row gap-16 ml-[10%] mr-auto md:ml-auto mt-[2%]">
 <div className="flex flex-col gap-4">
    <div className="text-4xl text-white">Menus</div>
